@@ -45,8 +45,6 @@ fig = go.Figure(go.Sankey(
 ))
 
 fig.update_layout(title_text="Sankey Diagram (Original Dataset Order)", font_size=10)
-fig.write_image("sankey_diagram.png")
-print("Diagram disimpan sebagai gambar statis sankey_diagram.png")
 
 # Debugging: Periksa apakah diagram dibuat
 print("Sankey Diagram Created")
